@@ -1,7 +1,12 @@
 // app/[locale]/page.tsx
-import { getTranslations } from 'next-intl/server';
-import { routing } from '@/i18n/routing';
+import { getTranslations } from 'next-intl/server'
+import { routing } from '@/i18n/routing'
 import { Metadata } from 'next';
+
+import MainHero from '@/components/Hero.tsx/MainHero'
+import ButtonWhite from '@/components/Button/ButtonWhite'
+import ButtonBlack from '@/components/Button/ButtonBlack'
+import What from '@/components/section/What';
 
 type Locale = (typeof routing.locales)[number];
 
@@ -30,7 +35,17 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
 
   return (
     <>
+      <section className='mt-20 flex flex-col items-center'>
+        <MainHero subHero={t('subHero')}/>
+        <div className='flex items-center gap-4 mt-8'>
+          <ButtonBlack href={`/${locale}/szolgaltatas`} linkPlaceHolder={t("toSzolgaltatas")}/>
+          <ButtonWhite href={`/${locale}/kapcsolat`} linkPlaceHolder={t("toKapcsolat")}/>
+        </div>
+      </section>
 
+      <section className='mt-20'>
+        <What whatDo={t('whatDo')} whatP={t('whatP')}/>
+      </section>
     </>
   );
 }
