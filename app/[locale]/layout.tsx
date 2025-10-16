@@ -39,7 +39,7 @@ export default async function LocaleLayout({
             <Navbar locale={locale}/>
           </header>
           <main>{children}</main>
-          <footer>
+          <footer className='mt-40'>
             <Footer />
           </footer>
         </NextIntlClientProvider>

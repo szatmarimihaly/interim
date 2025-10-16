@@ -6,7 +6,9 @@ import { Metadata } from 'next';
 import MainHero from '@/components/Hero.tsx/MainHero'
 import ButtonWhite from '@/components/Button/ButtonWhite'
 import ButtonBlack from '@/components/Button/ButtonBlack'
-import What from '@/components/section/What';
+import What from '@/components/section/What'
+import Subtitle from '@/components/Subtitle/Subtitle'
+import Company from '@/components/Card/Company';
 
 type Locale = (typeof routing.locales)[number];
 
@@ -33,6 +35,7 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
   const { locale } = await Promise.resolve(params);
   const t = await getTranslations({ locale });
 
+
   return (
     <>
       <section className='mt-20 flex flex-col items-center'>
@@ -45,6 +48,11 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
 
       <section className='mt-20'>
         <What whatDo={t('whatDo')} whatP={t('whatP')}/>
+      </section>
+
+      <section className='mt-20'>
+        <Subtitle subtitleText={t('subtitle1')}/>
+        <Company locale={locale}/>
       </section>
     </>
   );

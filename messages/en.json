@@ -9,5 +9,50 @@
   "toKapcsolat" : "Contact",
   "toSzolgaltatas" : "Services",
   "whatDo" : "What Does an Interim manager do?",
-  "whatP" : "Interim management is a fast, flexible, and targeted strategic solution that enables companies to engage an experienced executive for a temporary period to address specific business challenges. An interim manager can immediately deliver measurable results, make difficult decisions, and act in the best interest of the company. Additionally, an interim executive can support process optimization, project management, strategic transformation, and change management, all without requiring long-term commitment. Interim management is an ideal tool for adapting to rapid market changes, seizing new business opportunities, or handling temporary leadership situations where critical decisions must be made for the company's success."
+  "whatP" : "Interim management is a fast, flexible, and targeted strategic solution that enables companies to engage an experienced executive for a temporary period to address specific business challenges. An interim manager can immediately deliver measurable results, make difficult decisions, and act in the best interest of the company. Additionally, an interim executive can support process optimization, project management, strategic transformation, and change management, all without requiring long-term commitment. Interim management is an ideal tool for adapting to rapid market changes, seizing new business opportunities, or handling temporary leadership situations where critical decisions must be made for the company's success.",
+  "subtitle1" : "Benefits for Companies",
+
+  "companies" : [
+    {
+      "id" : 1, 
+      "title" : "Rapid intervention", 
+      "description" : "Interim managers can quickly identify issues, evaluate processes, and make strategic decisions from day one.",
+      "image" : "quick"
+    },
+
+    {
+      "id" : 2, 
+      "title" : "Flexibility", 
+      "description" : "The duration and scope of the engagement can be fully tailored to the company’s needs, with expertise provided only for the specific project or interim period.",
+      "image" : "clock"
+    },
+
+    {
+      "id" : 3, 
+      "title" : "Independent perspective", 
+      "description" : "As an external professional, the interim manager sees the processes objectively and can make difficult decisions without internal politics or conflicts of interest interfering.",
+      "image" : "choose"
+    },
+
+    {
+      "id" : 4, 
+      "title" : "Measurable results", 
+      "description" : "Interim managers work based on clear goals and KPIs, so the value they bring is immediately visible.",
+      "image" : "alaytics"
+    },
+
+    {
+      "id" : 5, 
+      "title" : "Cost efficiency", 
+      "description" : "Without a long-term employment contract, the company only pays for the expertise it actually needs, optimizing costs.",
+      "image" : "money"
+    },
+
+    {
+      "id" : 6, 
+      "title" : "Experience and knowledge", 
+      "description" : "Interim managers often have proven experience across multiple industries and business scenarios, providing rapid access to a wide range of expertise.",
+      "image" : "brain"
+    }
+  ]
 }
