@@ -9,6 +9,8 @@ import ButtonBlack from '@/components/Button/ButtonBlack'
 import What from '@/components/section/What'
 import Subtitle from '@/components/Subtitle/Subtitle'
 import Company from '@/components/Card/Company';
+import BentoGrid from '@/components/Bento/BentoGrid';
+import TextSection from '@/components/section/TextSection';
 
 type Locale = (typeof routing.locales)[number];
 
@@ -19,7 +21,7 @@ export const metadata : Metadata = {
   openGraph: {
     title: "SMTEAM Interim Management Budapest | Professzionális átmeneti cégvezetők",
     description: "SMTEAM interim management szolgáltatás Budapesten. Tapasztalt átmeneti vezetőink segítik cégeket stratégiai és operatív kihívások megoldásában.",
-    url: "https://www.smteam.hu/",
+    url: "https://www.smteam.hu/hu",
     siteName: "SMTEAM",
     locale: "hu_HU",
     type: "website",
@@ -50,10 +52,25 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
         <What whatDo={t('whatDo')} whatP={t('whatP')}/>
       </section>
 
-      <section className='mt-20'>
+      <section className='mt-20 mb-20'>
         <Subtitle subtitleText={t('subtitle1')}/>
-        <Company locale={locale}/>
+        <Company locale={locale} navigateMessage={t('navigateMessage')}/>
       </section>
+
+      <section>
+        <Subtitle subtitleText={t('textSectionTitle')}/>
+        <TextSection p1={t('textParag1')} p2={t('textParag2')} p3={t('textParag3')}/>
+      </section>
+
+      <Subtitle subtitleText={t('subtitle2')}/>
+      <BentoGrid 
+        bentoText1={t('bentoText1')}
+        bentoDesc1={t('bentoDesc1')}
+        bentoText2={t('bentoText2')}
+        bentoDesc2={t('bentoDesc2')}
+        bentoText3={t('bentoText3')}
+        bentoDesc3={t('bentoDesc3')}
+      />
     </>
   );
 }

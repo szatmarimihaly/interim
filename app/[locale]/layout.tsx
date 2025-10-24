@@ -40,7 +40,7 @@ export default async function LocaleLayout({
           </header>
           <main>{children}</main>
           <footer className='mt-40'>
-            <Footer />
+            <Footer locale={locale}/>
           </footer>
         </NextIntlClientProvider>
       </body>

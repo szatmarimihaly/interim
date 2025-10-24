@@ -38,7 +38,7 @@
       "id" : 4, 
       "title" : "Measurable results", 
       "description" : "Interim managers work based on clear goals and KPIs, so the value they bring is immediately visible.",
-      "image" : "alaytics"
+      "image" : "analytics"
     },
 
     {
@@ -54,5 +54,32 @@
       "description" : "Interim managers often have proven experience across multiple industries and business scenarios, providing rapid access to a wide range of expertise.",
       "image" : "brain"
     }
-  ]
+  ],
+
+  "bentoText1" : "Fast, Flexible Leadership",
+  "bentoDesc1" : "When time is critical, our interim leaders step in without delay. We provide experienced temporary executives who quickly take charge, ensuring business continuity during leadership transitions or corporate change.",
+
+  "bentoText2" : "Results-Driven Interim Management",
+  "bentoDesc2" : "Our interim managers combine strategic insight with practical execution. They don’t just advise — they take responsibility, lead teams, and deliver results that move your business forward during transformation or restructuring.",
+
+  "bentoText3" : "Expertise Across Industries",
+  "bentoDesc3" : "Our Budapest-based interim management team has broad industry experience, helping companies across Hungary and Central Europe manage transitions, improve operations, and strengthen leadership during critical phases.",
+
+  "bentoText4" : "Trusted Partners in Change",
+  "bentoDesc4" : "We bring trust and structure to every leadership transition. Our interim executives integrate seamlessly into your organization, providing stability, communication, and results when it matters most.",
+
+  "subtitle2": "What we offer?",
+
+  "textSectionTitle" : "Strategic Corporate Transitions",
+  "textParag1" : "In today’s fast-changing business environment, interim management has become a critical success factor for companies facing transformation, growth, or uncertainty. Change is constant — and having access to experienced interim leaders ensures that organizations can adapt quickly without losing direction. An interim executive or temporary manager steps in immediately, providing stability, structure, and results when leadership continuity is essential.",
+  "textParag2" : "The value of an interim leader goes far beyond short-term problem-solving. They bring strategic perspective, operational experience, and an objective view to guide your business through transitions. Whether it’s a corporate transition, leadership change, project management, or business turnaround, interim management combines agility with accountability. Across Budapest and throughout Hungary, more and more companies rely on interim management to bridge leadership gaps, deliver executive support, and provide expert business consulting when it matters most.",
+  "textParag3" : "During a corporate or leadership transition, an interim executive not only ensures business continuity but also helps realign the company’s strategy and culture for future success. By identifying key priorities, empowering teams, and driving measurable outcomes, interim management becomes a strategic enabler — not a temporary fix. It’s an effective way to strengthen your organization, manage change, and maintain momentum in an increasingly dynamic marketplace.",
+
+  "navigateMessage" : "Details",
+
+  "homeLink" : "HOME",
+  "aboutLink" : "ABOUT",
+  "serviceLink" : "SERVICES",
+  "contactLink" : "CONTACT",
+  "copyRight" : "© 2025 SMTEAM – All rights reserved."
 }

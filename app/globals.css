@@ -1,4 +1,15 @@
 @import "tailwindcss";
+@tailwind utilities;
+
+@layer utilities {
+  .bento-animation {
+    @apply transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .flood-text {
+    @apply text-gray-600 text-lg text-justify w-full max-w-7xl lg:text-2xl;
+  }
+}
 
 :root {
   --background: #ffffff;

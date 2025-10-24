@@ -1,58 +1,85 @@
 {
   "activeLanguage": "Aktív nyelv: Magyar",
   "switchTo": "HU",
-  "homeText" : "FŐOLDAL",
-  "serviceText" : "SZOLGÁLTATÁSOK",
-  "aboutText" : "RÓLUNK",
-  "contactText" : "KAPCSOLAT",
-  "subHero" : "Management & Consulting szolgáltatások",
-  "toKapcsolat" : "Kapcsolat",
-  "toSzolgaltatas" : "Szolgáltatás",
-  "whatDo" : "Mit csinál egy interim menedzser?", 
-  "whatP" : "Az interim menedzsment egy gyors, rugalmas és célzott stratégiai megoldás, amely lehetőséget biztosít a vállalatok számára, hogy átmeneti időre tapasztalt vezetőt vonjanak be speciális üzleti helyzetek kezelésére. Egy interim menedzser azonnal képes mérhető eredményeket elérni, nehéz döntéseket hozni, és a cég érdekeit szem előtt tartani. Emellett az interim vezető segíthet a vállalati folyamatok optimalizálásában, projektvezetésben, stratégiai átalakításban, valamint a változás menedzsmentben, anélkül, hogy hosszú távú elköteleződést igényelne. Az interim menedzsment ideális eszköz a gyors piacváltozásokhoz való alkalmazkodáshoz, új üzleti lehetőségek kiaknázásához, vagy átmeneti vezetői helyzetek kezelésére, amikor kulcsfontosságú döntéseket kell hozni a cég sikeréért.",
-  "subtitle1" : "Előnyök cégek számára",
+  "homeText": "FŐOLDAL",
+  "serviceText": "SZOLGÁLTATÁSOK",
+  "aboutText": "RÓLUNK",
+  "contactText": "KAPCSOLAT",
+  "subHero": "Management & Consulting szolgáltatások",
+  "toKapcsolat": "Kapcsolat",
+  "toSzolgaltatas": "Szolgáltatás",
+  "whatDo": "Mit csinál egy interim menedzser?",
+  "whatP": "Az interim menedzsment egy gyors, rugalmas és célzott stratégiai megoldás, amely lehetőséget biztosít a vállalatok számára, hogy átmeneti időre tapasztalt vezetőt vonjanak be speciális üzleti helyzetek kezelésére. Egy interim menedzser azonnal képes mérhető eredményeket elérni, nehéz döntéseket hozni, és a cég érdekeit szem előtt tartani. Emellett az interim vezető segíthet a vállalati folyamatok optimalizálásában, projektvezetésben, stratégiai átalakításban, valamint a változás menedzsmentben, anélkül, hogy hosszú távú elköteleződést igényelne. Az interim menedzsment ideális eszköz a gyors piacváltozásokhoz való alkalmazkodáshoz, új üzleti lehetőségek kiaknázásához, vagy átmeneti vezetői helyzetek kezelésére, amikor kulcsfontosságú döntéseket kell hozni a cég sikeréért.",
+  "subtitle1": "Előnyök cégek számára",
 
-  "companies" : [
+  "companies": [
     {
-      "id" : 1, 
-      "title" : "Gyors reagálás", 
-      "description" : "Az interim vezető már az első napokban képes azonosítani a problémákat, felmérni a folyamatokat, és stratégiai döntéseket hozni.",
-      "image" : "quick"
+      "id": 1,
+      "title": "Gyors reagálás",
+      "description": "Az interim vezető már az első napokban képes azonosítani a problémákat, felmérni a folyamatokat, és stratégiai döntéseket hozni.",
+      "image": "quick"
     },
 
     {
-      "id" : 2, 
-      "title" : "Rugalmasság", 
-      "description" : "A szolgáltatás időtartama és a feladatok teljesen testreszabhatók a vállalat igényei szerint. A cég csak az adott projekt vagy átmeneti feladat időtartamára veszi igénybe a szakértelmet.",
-      "image" : "clock"
+      "id": 2,
+      "title": "Rugalmasság",
+      "description": "A szolgáltatás időtartama és a feladatok teljesen testreszabhatók a vállalat igényei szerint. A cég csak az adott projekt vagy átmeneti feladat időtartamára veszi igénybe a szakértelmet.",
+      "image": "clock"
     },
 
     {
-      "id" : 3, 
-      "title" : "Független szemlélet", 
-      "description" : "Külső szakemberként az interim menedzser objektíven látja a folyamatokat, és képes nehéz döntéseket hozni anélkül, hogy a belső politikai vagy érdekütközések befolyásolnák.",
-      "image" : "choose"
+      "id": 3,
+      "title": "Független szemlélet",
+      "description": "Külső szakemberként az interim menedzser objektíven látja a folyamatokat, és képes nehéz döntéseket hozni anélkül, hogy a belső politikai vagy érdekütközések befolyásolnák.",
+      "image": "choose"
     },
 
     {
-      "id" : 4, 
-      "title" : "Mérhető eredmények", 
-      "description" : "Az interim vezetők konkrét célok és KPI-k alapján dolgoznak, így azonnal látható az általuk hozott érték.",
-      "image" : "analytics"
+      "id": 4,
+      "title": "Mérhető eredmények",
+      "description": "Az interim vezetők konkrét célok és KPI-k alapján dolgoznak, így azonnal látható az általuk hozott érték.",
+      "image": "analytics"
     },
 
     {
-      "id" : 5, 
-      "title" : "Költséghatékonyság", 
-      "description" : "Hosszú távú munkaviszony nélkül, a vállalat a ténylegesen szükséges szakértelmet fizeti meg, így optimalizálva a költségeket.",
-      "image" : "money"
+      "id": 5,
+      "title": "Költséghatékonyság",
+      "description": "Hosszú távú munkaviszony nélkül, a vállalat a ténylegesen szükséges szakértelmet fizeti meg, így optimalizálva a költségeket.",
+      "image": "money"
     },
 
     {
-      "id" : 6, 
-      "title" : "Tapasztalat és szakértelem", 
-      "description" : "Az interim vezetők gyakran több iparágban és különböző üzleti helyzetekben bizonyítottak, így a cég gyorsan hozzáfér egy széleskörű tudáshoz.",
-      "image" : "brain"
+      "id": 6,
+      "title": "Tapasztalat és szakértelem",
+      "description": "Az interim vezetők gyakran több iparágban és különböző üzleti helyzetekben bizonyítottak, így a cég gyorsan hozzáfér egy széleskörű tudáshoz.",
+      "image": "brain"
     }
-  ]
+  ],
+
+  "bentoText1": "Gyors és rugalmas vezetői megoldás",
+  "bentoDesc1": "Amikor a vállalatnak gyors döntésekre és stabil irányításra van szüksége, tapasztalt átmeneti vezetőink azonnal belépnek. Biztosítjuk a folytonosságot és a működés stabilitását vezetői váltás vagy vállalati átalakulás idején.",
+
+  "bentoText2": "Eredményorientált interim menedzsment",
+  "bentoDesc2": "Interim vezetőink nem csupán tanácsot adnak – ők irányítanak, döntenek és eredményeket érnek el. Legyen szó vállalati átmenetről, átszervezésről vagy projektvezetésről, céljuk mindig a kézzelfogható üzleti hatás.",
+
+  "bentoText3": "Széles iparági tapasztalat",
+  "bentoDesc3": "Budapesti interim menedzsment csapatunk több iparágban bizonyított már. Segítünk a vezetői átmenetek, vállalati változások és működésfejlesztés hatékony lebonyolításában Magyarországon és Közép-Európában.",
+
+  "bentoText4": "Megbízható partner a változásban",
+  "bentoDesc4": "Bizalom, átláthatóság és stabilitás minden átmenetben Interim vezetőink gyorsan beilleszkednek, és magabiztosan vezetik a szervezetet a változás során. Gondoskodnak arról, hogy a vezetői váltás ne kockázat, hanem fejlődési lehetőség legyen.",
+
+  "subtitle2": "Mit tudunk nyújtani?",
+
+  "textSectionTitle" : "Sikeres vállalati átmenet",
+  "textParag1" : "A mai üzleti környezetben a változás állandó — új piacok, digitális átalakulások és szervezeti kihívások formálják a cégek működését. Ilyen helyzetekben az interim menedzsment biztosítja azt a rugalmasságot és tapasztalatot, amely nélkülözhetetlen a gyors reagáláshoz és a stabil növekedéshez. Egy átmeneti vezető vagy ideiglenes menedzser azonnal képes betölteni a vezetői űrt, biztosítva, hogy a stratégiai célok megvalósítása ne álljon meg egy pillanatra sem.",
+  "textParag2" : "Az interim vezető tapasztalata messze túlmutat a napi operatív feladatokon: stratégiai irányt ad, új szemléletet hoz, és segít a szervezetet átvezetni a változásokon. Legyen szó vállalati átmenetről, vezetői váltásról, projektvezetésről vagy válságkezelésről, az interim menedzsment lényege a gyors beavatkozás és a kézzel fogható eredmény. Budapesten és az egész országban egyre több cég választja ezt a megoldást, mert felismerik: a vezetői támogatás és a gyakorlati üzleti tanácsadás együttesen képesek a legnehezebb helyzetekben is eredményt hozni.",
+  "textParag3" : "Egy cégátmenet során az ideiglenes vezető nemcsak a stabilitást biztosítja, hanem segít a szervezetet új irányba állítani. Tapasztalatával gyorsan azonosítja a kulcsterületeket, támogatja a csapatokat, és olyan döntéseket hoz, amelyek hosszú távon is fenntarthatóvá teszik a fejlődést. Az átmeneti menedzsment tehát nem csupán egy ideiglenes megoldás, hanem stratégiai eszköz a vállalat jövőjének formálásában — különösen a mai, gyorsan változó üzleti világban.",
+
+  "navigateMessage" : "Tovább",
+
+  "homeLink" : "FŐOLDAL",
+  "aboutLink" : "RÓLUNK",
+  "serviceLink" : "SZOLGÁLTATÁSAINK",
+  "contactLink" : "KAPCSOLAT",
+  "copyRight" : "© 2025 SMTEAM – Minden jog fenntartva."
 }
